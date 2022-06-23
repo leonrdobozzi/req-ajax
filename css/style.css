@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("../assets/Rick-and-Morty-Singe-Duvet-4.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.card {
+  background: #ffffff10;
+  padding: 100px;
+  border-radius: 40px;
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card h1 {
+  color: #fff;
+  margin: 40px 0;
+  font-family: sans-serif;
+}
+
+.card button {
+  color: #2e2e2e;
+  background: greenyellow;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.specie {
+  color: #fff;
+  margin: 20px 0;
+  font-size: 19px;
+}
